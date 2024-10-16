@@ -5,7 +5,7 @@
 .div-nav{
     display: flex;
     align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 .nav-ul{
@@ -15,8 +15,40 @@
     gap:60px;
 }
 .logo{
-    margin: 60px;
+    margin: 20px;
 }
 .select-leng{
     justify-content: end;
+}
+.header-logo{
+    display: flex;
+    gap: 25px;
+}
+.bg{
+    height: 100vh;
+    background-image: url(img/bg\ image\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+.header-text{
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family:"Bebas Neue";
+    
+}
+.h1-header-text{
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 80px;
+}
+.p-header-text{
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-align: center;
+    
 }
